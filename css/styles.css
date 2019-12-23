@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* --- --- Information Proyect --- --- */
 /*!
- * Snippets Bootstrap 4 - Sniptrap 1 v1.1.6.beta.RC.23.12.019 (https://coredeiv.github.io/bootstraplus-beta/)
+ * Snippets Bootstrap 4 - Sniptrap 1 v1.1.7.beta.RC.23.12.019 (https://coredeiv.github.io/bootstraplus-beta/)
  * Copyright 2019 coreDeiv - David Fernando Torres Parra - dftp93(@)gmail.com
  * Medell├¡n - Antioqu├¡a - Colombia
  * github.com/coreDeiv
@@ -101,7 +101,14 @@
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px; }
+  --breakpoint-xl: 1200px;
+  /* --- --- Typography --- --- */
+  --montserrat: "Montserrat", sans-serif, serif;
+  --roboto: "Roboto", sans-serif, serif;
+  --courier-prime: "Courier Prime", sans-serif, serif;
+  --open-sans: "Open Sans", sans-serif, serif;
+  --raleway: "Raleway", sans-serif, serif;
+  --muli: "Muli", sans-serif, serif; }
 
 /* --- --- components --- --- */
 /* --- --- Layout --- --- */
@@ -217,12 +224,19 @@
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px; }
+  --breakpoint-xl: 1200px;
+  /* --- --- Typography --- --- */
+  --montserrat: "Montserrat", sans-serif, serif;
+  --roboto: "Roboto", sans-serif, serif;
+  --courier-prime: "Courier Prime", sans-serif, serif;
+  --open-sans: "Open Sans", sans-serif, serif;
+  --raleway: "Raleway", sans-serif, serif;
+  --muli: "Muli", sans-serif, serif; }
 
 /* --- --- Typography --- --- */
 /* Font-size */
 .fz-05rem {
-  font-size: 0.5rem; }
+  font-size: .5rem; }
 
 .fz-1rem {
   font-size: 1rem; }
@@ -341,6 +355,13 @@
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px; }
+  --breakpoint-xl: 1200px;
+  /* --- --- Typography --- --- */
+  --montserrat: "Montserrat", sans-serif, serif;
+  --roboto: "Roboto", sans-serif, serif;
+  --courier-prime: "Courier Prime", sans-serif, serif;
+  --open-sans: "Open Sans", sans-serif, serif;
+  --raleway: "Raleway", sans-serif, serif;
+  --muli: "Muli", sans-serif, serif; }
 
 /*# sourceMappingURL=styles.css.map */
