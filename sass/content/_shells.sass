@@ -1,0 +1,56 @@
+.shelldown-up
+  position: relative
+  overflow: hidden
+  width: $spacer-100
+  height: $spacer-100
+  &:before
+    content: ''
+    position: absolute
+    top: 99%
+    left: -$spacer-50
+    width: $spacer-100
+    height: $spacer-100
+    background-color: $normal-white
+    transform-origin: right
+    transform: skewY(8deg)
+    z-index: 0
+    box-shadow: inset 0px 3px 5px 0px rgba(0, 0, 0, 0.5)
+  &:after
+    content: ''
+    position: absolute
+    top: 99%
+    right: -$spacer-50
+    width: $spacer-100
+    height: $spacer-100
+    background-color: $normal-white
+    transform-origin: left
+    transform: skewY(-8deg)
+    z-index: 0
+    box-shadow: inset 0px 3px 5px 0px rgba(0, 0, 0, 0.5)
+.shelldown-down
+  position: relative
+  overflow: hidden
+  width: $spacer-100
+  height: $spacer-100
+  &:before
+    content: ''
+    position: absolute
+    bottom: 110%
+    left: -$spacer-50
+    width: $spacer-100
+    height: $spacer-100
+    background-color: $normal-white
+    transform-origin: left
+    transform: skewY(8deg)
+    z-index: 0
+  &:after
+    content: ''
+    position: absolute
+    bottom: 110%
+    right: -$spacer-50
+    width: $spacer-100
+    height: $spacer-100
+    background-color: $normal-white
+    transform-origin: right
+    transform: skewY(-8deg)
+    z-index: 0
