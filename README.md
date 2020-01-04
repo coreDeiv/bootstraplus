@@ -50,9 +50,9 @@ This project is under the License (Github Standard Licensing)
 * **David Fernando Torres Parra** - *Initial Work* - [coreDeiv](https://github.com/coreDeiv)
 
 * **Bootstraplus 1**
-* *v1.4.0.beta.RC.1.1.20* 
+* *v1.0.0.beta.3.1.20* 
 * *(https://coredeiv.github.io/bootstraplus/)*
-* *Copyright 2019 coreDeiv*
+* *Copyright 2019 - 2020 coreDeiv*
 * *dftp93@gmail.com*
 
 * *Medellin - Antioquia - Colombia*
@@ -65,4 +65,4 @@ This project is under the License (Github Standard Licensing)
 
 * *Currently v4.4.1. Code licensed MIT, docs CC BY 3.0.*
 * *(https://getbootstrap.com/docs/4.4/getting-started/introduction/)*
-* *Copyright 2019 The Snippets Authors*
+* *Copyright 2019 - 2020 The Snippets Authors*
