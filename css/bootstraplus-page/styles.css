@@ -38,5 +38,11 @@ body, html {
       margin: 4% 0;
       font-size: 15px;
       color: #fff; }
+      #wrap-wrap #construct__landing--bootstrap-plus pre button {
+        background: rgba(255, 255, 255, 0.3);
+        border: none;
+        padding: 5px 10px;
+        color: #fff;
+        border-radius: 5px; }
 
 /*# sourceMappingURL=styles.css.map */
