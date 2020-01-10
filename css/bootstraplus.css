@@ -1,11 +1,11 @@
 /* --- --- Global Proyect --- --- */
 /* --- Globals --- */
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,400,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Courier+Prime:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Courier+Prime:100,400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,400,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Muli:200,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:100,400,700&display=swap");
 body::-webkit-scrollbar {
   background-color: #fff !important;
   width: 16px !important; }
@@ -154,6 +154,32 @@ body {
 
 .muli {
   font-family: var(muli); }
+
+/* Font Weight */
+.text-bold {
+  font-weight: 700; }
+
+.text-normal {
+  font-weight: 400; }
+
+.text-light {
+  font-weight: 100; }
+
+/* Letter Spacing */
+.ls-1 {
+  letter-spacing: 1px; }
+
+.ls-2 {
+  letter-spacing: 2px; }
+
+.ls-3 {
+  letter-spacing: 3px; }
+
+.ls-4 {
+  letter-spacing: 4px; }
+
+.ls-5 {
+  letter-spacing: 5px; }
 
 /* Background-Image */
 .bg-size-cover {
