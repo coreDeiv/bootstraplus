@@ -27,18 +27,18 @@ body, html {
   max-width: 100vw !important;
   height: auto !important;
   min-height: 100vh !important; }
-  #wrap-wrap #construct__landing--bootstrap-plus {
+  #wrap-wrap #construct__landing--bootstraplus {
     height: 100vh;
     width: 100%;
     background: linear-gradient(90deg, #563d7c, #2061aa); }
-    #wrap-wrap #construct__landing--bootstrap-plus pre {
+    #wrap-wrap #construct__landing--bootstraplus pre {
       background: rgba(248, 248, 248, 0.1);
       padding: 2% 4%;
       border-radius: 5px;
       margin: 4% 0;
       font-size: 15px;
       color: #fff; }
-      #wrap-wrap #construct__landing--bootstrap-plus pre button {
+      #wrap-wrap #construct__landing--bootstraplus pre button {
         background: rgba(255, 255, 255, 0.3);
         border: none;
         padding: 5px 10px;

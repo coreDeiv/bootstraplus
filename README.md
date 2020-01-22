@@ -1,6 +1,6 @@
 # BootstraPlus
 
-_Bootstraplus: Born from the idea of being able to use reusable and maintainable CSS over time, allowing its use in all the desired projects. Bootstrap currently in its latest stable version (4.4) works this way._
+_Bootstraplus is an aditional components for Bootstrap. Bootstraplus use new classes with Bootstrap syntax, for more advanced designs in group with last stable version of Bootstrap 4.4._
 
 _Bootstraplus uses the same writing syntax as the original does, but it comes with many additional features, so you can create a complete project using Bootstrap 4 and Botstraplus at the same time, with zero lines of additional CSS code._
 
@@ -43,14 +43,14 @@ We use [Git](https://git-scm.com/) to control project versions, you can see all 
 
 ## License 📄
 
-This project is under the License (Github Standard Licensing)
+This project is under the [License](https://github.com/coreDeiv/bootstraplus/LICENSE.md) Standard of the [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Authors
 
 * **David Fernando Torres Parra** - *Initial Work* - [coreDeiv](https://github.com/coreDeiv)
 
 * **Bootstraplus 1**
-* *v1.1.0.beta.10.1.20* 
+* *v1.2.0.beta.22.1.20* 
 * *(https://coredeiv.github.io/bootstraplus/)*
 * *Copyright 2019 - 2020 coreDeiv*
 * *dftp93@gmail.com*
