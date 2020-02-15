@@ -1,4 +1,5 @@
 
+- Update: Added Sizings 1.2.2
 - Update: Corrected template contributing to 1.2.1
 - Update: V1.0.0.beta errors are corrected to 1.2.0
 - Update: added new files to 1.2.0

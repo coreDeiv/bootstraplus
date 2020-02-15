@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2020 coreDeiv Bootstraplus v1.2.1.beta
+Copyright (c) 2020 coreDeiv Bootstraplus v1.2.2.beta
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
