@@ -16,22 +16,38 @@ body
   box-sizing: border-box
 .selector-for-some-widget
   box-sizing: content-box
+  &-hover:hover
+    @extend .selector-for-some-widget
 // Transition
 .transition
   transition: .5s
+  &-hover:hover
+    @extend .transition
 // Cursor efects
 .cursor-pointer
   cursor: pointer
+  &-hover:hover
+    @extend .cursor-pointer
 .cursor-help
   cursor: help
+  &-hover:hover
+    @extend .cursor-help
 .cursor-wait
   cursor: wait
+  &-hover:hover
+    @extend .cursor-wait
 .cursor-crosshair
   cursor: crosshair
+  &-hover:hover
+    @extend .cursor-crosshair
 .cursor-text
   cursor: text
+  &-hover:hover
+    @extend .cursor-text
 .cursor-not-allowed
   cursor: not-allowed
+  &-hover:hover
+    @extend .cursor-not-allowed
 // Smooth scroll, just for id´s
 .smooth-scroll
   scroll-behavior: smooth
