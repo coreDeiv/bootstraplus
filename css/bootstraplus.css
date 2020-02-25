@@ -1184,6 +1184,9 @@ body {
 .vw-95, .vw-95-hover:hover {
   width: 95vw; }
 
+.vw-100, .vw-100-hover:hover {
+  width: 100vw; }
+
 .vh-1, .vh-1-hover:hover {
   height: 1vh; }
 
@@ -1255,6 +1258,9 @@ body {
 
 .vh-95, .vh-95-hover:hover {
   height: 95vh; }
+
+.vh-100, .vh-100-hover:hover {
+  height: 100vh; }
 
 .w-auto, .w-auto-hover:hover {
   width: auto; }
