@@ -1,4 +1,5 @@
 
+- Update: Added Social Media Buttons 1.4.0
 - Update: Added vh and vw 100 units 1.3.1
 - Update: Added hover effects 1.3.0
 - Update: Added Sizings 1.2.2
