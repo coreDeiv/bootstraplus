@@ -1,0 +1,39 @@
+.geom
+  height: auto
+  min-height: 200px
+  width: auto
+  min-width: 200px
+  overflow: hidden
+  &.geom-square
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%)
+    &-hover:hover
+      @extend .geom-square
+  &.geom-circle
+    clip-path: circle(50% at 50% 50%)
+    &-hover:hover
+      @extend .geom-circle
+  &.geom-triangule
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%)
+    &-hover:hover
+      @extend .geom-triangule
+  &.geom-rhombus
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)
+    &-hover:hover
+      @extend .geom-rhombus
+  &.geom-pentagon
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)
+    &-hover:hover
+      @extend .geom-pentagon
+  &.geom-hexagon
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)
+    &-hover:hover
+      @extend .geom-hexagon
+  &.geom-left-arrow
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%)
+    &-hover:hover
+      @extend .geom-left-arrow
+  &.geom-right-arrow
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%)
+    &-hover:hover
+      @extend .geom-right-arrow
+  

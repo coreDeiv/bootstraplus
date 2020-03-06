@@ -50,7 +50,7 @@ This project is under the [License](https://github.com/coreDeiv/bootstraplus/LIC
 * **David Fernando Torres Parra** - *Initial Work* - [coreDeiv](https://github.com/coreDeiv)
 
 * **Bootstraplus 1**
-* *v1.4.0.beta.28.2.20* 
+* *v2.0.0.beta.5.3.20* 
 * *(https://coredeiv.github.io/bootstraplus/)*
 * *Copyright 2019 - 2020 coreDeiv*
 * *dftp93@gmail.com*

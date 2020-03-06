@@ -1,4 +1,10 @@
 
+## v2.0.0.beta
+**Change Syntax - Added New Elements**
+- Update: Change syntax text colors, added new elemts 2.0.0
+
+## v1.4.0.beta
+**Correct Version**
 - Update: Added Social Media Buttons 1.4.0
 - Update: Added vh and vw 100 units 1.3.1
 - Update: Added hover effects 1.3.0
