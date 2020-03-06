@@ -1,7 +1,9 @@
 
 ## v2.0.0.beta
 **Change Syntax - Added New Elements**
-- Update: Change syntax text colors, added new elemts 2.0.0
+- Update: Correct info version                          2.0.2
+- Update: Added "!important" to styles of buttons       2.0.1
+- Update: Change syntax text colors, added new elemts   2.0.0
 
 ## v1.4.0.beta
 **Correct Version**
