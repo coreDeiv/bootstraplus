@@ -256,8 +256,12 @@ body {
     opacity: 0.8 !important; }
   .btn.btn-rounded-40 {
     border-radius: 40px; }
+    .btn.btn-rounded-40-important {
+      border-radius: 40px !important; }
   .btn.btn-circle {
     border-radius: 50%; }
+    .btn.btn-circle-important {
+      border-radius: 50% !important; }
 
 .btn-primary.btn-bg-light {
   background: var(--light-primary);
