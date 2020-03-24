@@ -11,6 +11,9 @@
     border-radius: $spacer-50
     &-important
       border-radius: $spacer-50 !important
+  &.btn-outline
+    @extend .text-bold
+    border: 2px solid !important
 
 // Bootstrap 4
 // Primary
@@ -21,6 +24,14 @@
   &.btn-bg-dark
     background: $dark-primary
     border-color: $dark-primary
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-primary 
+    color: $normal-primary 
+    &:hover
+      background-color: $light-primary !important
+      color: $normal-white !important
+
 // Danger
 .btn-danger
   &.btn-bg-light
@@ -29,6 +40,11 @@
   &.btn-bg-dark
     background: $dark-danger
     border-color: $dark-danger
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-danger 
+    color: $normal-danger 
+
 // Warning
 .btn-warning
   &.btn-bg-light
@@ -37,6 +53,11 @@
   &.btn-bg-dark
     background: $dark-warning
     border-color: $dark-warning
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-warning 
+    color: $normal-warning 
+
 // Success
 .btn-success
   &.btn-bg-light
@@ -45,6 +66,11 @@
   &.btn-bg-dark
     background: $dark-success
     border-color: $dark-success
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-success 
+    color: $normal-success 
+
 // Secondary
 .btn-secondary
   &.btn-bg-light
@@ -53,6 +79,11 @@
   &.btn-bg-dark
     background: $dark-secondary
     border-color: $dark-secondary
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-secondary 
+    color: $normal-secondary 
+
 // Info
 .btn-info
   &.btn-bg-light
@@ -61,291 +92,473 @@
   &.btn-bg-dark
     background: $dark-info
     border-color: $dark-info
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-info 
+    color: $normal-info 
+
 // Bootstraplus
 // navy
 .btn-navy
   background: $normal-navy
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-navy
     border-color: $light-navy
   &.btn-bg-dark
     background: $dark-navy
     border-color: $dark-navy
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-navy 
+    color: $normal-navy 
+
 // indigo
 .btn-indigo
   background: $normal-indigo
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-indigo
     border-color: $light-indigo
   &.btn-bg-dark
     background: $dark-indigo
     border-color: $dark-indigo
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-indigo 
+    color: $normal-indigo 
+
 // blue
 .btn-blue
   background: $normal-blue
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-blue
     border-color: $light-blue
   &.btn-bg-dark
     background: $dark-blue
     border-color: $dark-blue
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-blue 
+    color: $normal-blue 
+
 // cyan
 .btn-cyan
   background: $normal-cyan
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-cyan
     border-color: $light-cyan
   &.btn-bg-dark
     background: $dark-cyan
     border-color: $dark-cyan
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-cyan 
+    color: $normal-cyan 
+
 // lilac
 .btn-lilac
   background: $normal-lilac
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-lilac
     border-color: $light-lilac
   &.btn-bg-dark
     background: $dark-lilac
     border-color: $dark-lilac
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-lilac 
+    color: $normal-lilac 
+
 // purple
 .btn-purple
   background: $normal-purple
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-purple
     border-color: $light-purple
   &.btn-bg-dark
     background: $dark-purple
     border-color: $dark-purple
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-purple 
+    color: $normal-purple 
+
 // pink
 .btn-pink
   background: $normal-pink
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-pink
     border-color: $light-pink
   &.btn-bg-dark
     background: $dark-pink
     border-color: $dark-pink
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-pink 
+    color: $normal-pink 
+
 // red
 .btn-red
   background: $normal-red
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-red
     border-color: $light-red
   &.btn-bg-dark
     background: $dark-red
     border-color: $dark-red
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-red 
+    color: $normal-red 
+
 // orange
 .btn-orange
   background: $normal-orange
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-orange
     border-color: $light-orange
   &.btn-bg-dark
     background: $dark-orange
     border-color: $dark-orange
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-orange 
+    color: $normal-orange 
+
 // amber
 .btn-amber
   background: $normal-amber
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-amber
     border-color: $light-amber
   &.btn-bg-dark
     background: $dark-amber
     border-color: $dark-amber
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-amber 
+    color: $normal-amber 
+
 // yellow
 .btn-yellow
   background: $normal-yellow
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-yellow
     border-color: $light-yellow
   &.btn-bg-dark
     background: $dark-yellow
     border-color: $dark-yellow
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-yellow 
+    color: $normal-yellow 
+
 // lime
 .btn-lime
   background: $normal-lime
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-lime
     border-color: $light-lime
   &.btn-bg-dark
     background: $dark-lime
     border-color: $dark-lime
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-lime 
+    color: $normal-lime 
+
 // green
 .btn-green
   background: $normal-green
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-green
     border-color: $light-green
   &.btn-bg-dark
     background: $dark-green
     border-color: $dark-green
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-green 
+    color: $normal-green 
+
 // brown
 .btn-brown
   background: $normal-brown
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-brown
     border-color: $light-brown
   &.btn-bg-dark
     background: $dark-brown
     border-color: $dark-brown
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-brown 
+    color: $normal-brown 
+
 // teal
 .btn-teal
   background: $normal-teal
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-teal
     border-color: $light-teal
   &.btn-bg-dark
     background: $dark-teal
     border-color: $dark-teal
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-teal 
+    color: $normal-teal 
+
 // gray
 .btn-gray
   background: $normal-gray
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-gray
     border-color: $light-gray
   &.btn-bg-dark
     background: $dark-gray
     border-color: $dark-gray
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-gray 
+    color: $normal-gray 
+
 // elegant
 .btn-elegant
   background: $normal-elegant
-  color: $normal-white !important
+  color: $normal-white
   &.btn-bg-light
     background: $light-elegant
     border-color: $light-elegant
   &.btn-bg-dark
     background: $dark-elegant
     border-color: $dark-elegant
+  &.btn-outline
+    background: $normal-white 
+    border-color: $normal-elegant 
+    color: $normal-elegant 
+
 
 // Social media
 
 // Facebook
 .btn-facebook
   background: $facebook-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $facebook-color 
+    color: $facebook-color 
 
 // Youtube
 .btn-youtube
   background: $youtube-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $youtube-color 
+    color: $youtube-color 
 
 // Whatsapp
 .btn-whatsapp
   background: $whatsapp-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $whatsapp-color 
+    color: $whatsapp-color 
 
 // LinkedIn
 .btn-linkedin
   background: $linkedin-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $linkedin-color 
+    color: $linkedin-color 
 
 // Twitter
 .btn-twitter
   background: $twitter-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $twitter-color 
+    color: $twitter-color 
 
 // Instagram
 .btn-instagram
   background: linear-gradient(45deg, $instagram-color-one, $instagram-color-two, $instagram-color-three)
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $instagram-color-two 
+    color: $instagram-color-two 
 
 // pinterest
 .btn-pinterest
   background: $pinterest-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $pinterest-color 
+    color: $pinterest-color 
 
 // tiktok
 .btn-tiktok
   background: $tiktok-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $tiktok-color 
+    color: $tiktok-color 
 
 // codepen
 .btn-codepen
   background: $codepen-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $codepen-color 
+    color: $codepen-color 
 
 // snapchat
 .btn-snapchat
   background: $snapchat-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $snapchat-color 
+    color: $snapchat-color 
 
 // google
 .btn-google
   background: $google-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $google-color 
+    color: $google-color 
 
 // telegram
 .btn-telegram
   background: $telegram-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $telegram-color 
+    color: $telegram-color 
 
 // messenger
 .btn-messenger
   background: $messenger-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $messenger-color 
+    color: $messenger-color 
 
 // skype
 .btn-skype
   background: $skype-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $skype-color 
+    color: $skype-color 
 
 // wechat
 .btn-wechat
   background: $wechat-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $wechat-color 
+    color: $wechat-color 
 
 // blogger
 .btn-blogger
   background: $blogger-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $wechat-color 
+    color: $wechat-color 
 
 // discord
 .btn-discord
   background: $discord-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $discord-color 
+    color: $discord-color 
 
 // disqus
 .btn-disqus
   background: $disqus-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $disqus-color 
+    color: $disqus-color 
 
 // github
 .btn-github
   background: $github-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $github-color 
+    color: $github-color 
 
 // spotify
 .btn-spotify
   background: $spotify-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: -color 
+    color: -color 
 
 // stack-overflow
 .btn-stack-overflow
   background: $stack-overflow-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $spotify-color 
+    color: $spotify-color 
 
 // twitch
 .btn-twitch
   background: $twitch-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $twitch-color 
+    color: $twitch-color 
 
 // wordpress
 .btn-wordpress
   background: $wordpress-color
-  color: $normal-white !important
+  color: $normal-white
+  &.btn-outline
+    background: $normal-white 
+    border-color: $wordpress-color 
+    color: $wordpress-color 
