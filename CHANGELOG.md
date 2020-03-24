@@ -1,6 +1,7 @@
 
 ## v2.0.0.beta
 **Change Syntax - Added New Elements**
+- Update: Correct colors and added new elements         2.0.5
 - Update: Correct color black and  update index.html    2.0.3
 - Update: Correct info version                          2.0.2
 - Update: Added "!important" to styles of buttons       2.0.1
