@@ -1,6 +1,7 @@
 
 ## v2.0.0.beta
 **Change Syntax - Added New Elements**
+- Update: Correct Landing page visualization            2.0.5.1
 - Update: Correct colors and added new elements         2.0.5
 - Update: Correct color black and  update index.html    2.0.3
 - Update: Correct info version                          2.0.2
